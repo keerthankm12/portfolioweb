@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7446a759cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        <div class="header-text">
+            <p>Digital Marketing Agency</p>
+            <h1>Hello,we are here to <br> grow your <span>business</span>  <br> online with our experts</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------------------------about--------------------------------------------- -->
+
+<div id = "about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class= "sub-title">About Us</h1>
+                <p>At ImpactPulseMedia, we're more than a digital marketing agency; we're your strategic partner in success. 
+                    With a seasoned team, innovative solutions, and a client-centric approach, we propel businesses to new heights in the digital landscape. 
+                    Explore the limitless possibilities with ImpactPulseMedia and let's achieve unparalleled success together.</p>
+                <div class="tab-titled">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Website development using Wordpress</li>
+                        <li><span>App Development</span><br>Application development using flutter</li>
+                        <li><span>E-commerce websites</span><br>building E-commerce websites using shopify</li>
+                        <li><span>Facebook Ads</span><br>Unlock unparalleled visibility and engagement with our expertly crafted Facebook Ads that captivate your audience and drive measurable results.</li>
+                        <li><span>Social Media Management</span><br>Elevate your brand's online presence with our comprehensive social media management services, tailored to engage, grow, and resonate across platforms.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id = "experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Our agency is working with 3 active startups</li>
+                        <li><span>2022-2023</span><br>Our team members each have over 2 years of freelance experience, blending diverse skills to enhance our digital marketing agency.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ----------------------services-------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class= "sub-title">Our Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Development</h2>
+                <p>Our WordPress websites not only showcase your brand but also offer seamless navigation and responsive design, catering to diverse user preferences.
+                    With a focus on user experience and scalability, our WordPress solutions empower your online presence for growth and adaptability in the digital realm.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>App Development</h2>
+                <p>Flutter's cross-platform capabilities ensure your app reaches both iOS and Android users, providing a cost-effective and efficient solution for broad market reach.
+                    Our Flutter development integrates stunning visuals with smooth functionality, creating apps that leave a lasting impression on users.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Social Media Advertising</h2>
+                <p>Extend your brand's influence across Facebook, Instagram, and YouTube with our tailored social media advertising. 
+                    Leveraging advanced targeting and compelling content, we optimize campaigns to captivate audiences on these key platforms, 
+                    driving meaningful interactions and measurable results.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Social Media Management</h2>
+                <p>Stay ahead in the social media landscape with our proactive and data-driven management, cultivating an authentic brand presence and driving engagement.
+                    We go beyond posting content, actively monitoring trends and conversations to keep your brand relevant and responsive in the dynamic world of social media.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>E-commerce Website using Shopify</h2>
+                <p>Shopify's robust features are harnessed to provide a personalized shopping experience for your customers, 
+                    leading to increased conversion rates and customer satisfaction.
+                    From seamless payment gateways to mobile responsiveness, our Shopify solutions ensure a secure and user-friendly e-commerce environment.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Video Editing</h2>
+                <p>Our video editing services extend beyond basic cutting and cropping, adding creative elements and storytelling techniques that enhance the overall narrative.
+                    Whether it's promotional videos or social media content, our meticulous editing transforms raw footage into captivating visual experiences, leaving a lasting impact.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>3D Designing</h2>
+                <p>Elevate your storytelling with our Blender animation services. From captivating 3D animations to dynamic visual effects, we bring your ideas to life with precision and creativity, 
+                    ensuring a visually stunning and immersive experience for your audience.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ---------------------------------------------portfolio------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Application</h3>
+                    <p>We are currently working on building an app for our client</p>
+                    <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" >
+                <div class="layer">
+                    <h3>Facebook advertising</h3>
+                    <p>We are running ads for our client for more than 7 months and getting exceptional results</p>
+                    <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Shopify Website</h3>
+                    <p>We are building a shopify website for our e-commerce client</p>
+                    <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- --------------------------------contact--------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fas fa-paper-plane"></i>keerthankm4@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+91 8431618118</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2023-2024 ImpactPulseMedia. All Rights Reserved.</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
